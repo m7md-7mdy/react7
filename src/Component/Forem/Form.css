@@ -1,0 +1,27 @@
+.mo{
+    padding-top: 65px;
+    height: 90vh;
+}
+.maro3{
+    position: relative;
+}
+.maro3::before {
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    content: '';
+    background-color:#2C3E50;
+    top: 17px;
+    left: 42%;
+
+}
+.maro3::after {
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    content: '';
+    background-color:#2C3E50;
+    top: 17px;
+    right: 42%;
+
+}

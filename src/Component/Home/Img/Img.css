@@ -1,0 +1,36 @@
+.demo {
+    background: #1abc9c;
+    padding-top: 65px;
+    height: 100vh;
+
+}
+
+img {
+    width: 400px;
+}
+
+.maro {
+    position: relative;
+    
+}
+
+.maro::before {
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    content: '';
+    background-color: white;
+    top: 17px;
+    left: 42%;
+
+}
+.maro::after {
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    content: '';
+    background-color: white;
+    top: 17px;
+    right: 42%;
+
+}

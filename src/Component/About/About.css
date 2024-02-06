@@ -1,0 +1,29 @@
+.about{
+    background-color:  #1abc9c;
+    width: 100%;
+    min-height: 70vh;
+}
+
+.maro1{
+    position: relative;
+}
+.maro1::before {
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    content: '';
+    background-color:white;
+    top: 17px;
+    left: 40%;
+
+}
+.maro1::after {
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    content: '';
+    background-color:white;
+    top: 17px;
+    right: 40%;
+
+}

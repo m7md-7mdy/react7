@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    padding-top: 90px;
+}
+
+.item .layer {
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1abc9ce6;
+}
+
+.item:hover .layer {
+    top: 0;
+    transition: 1s;
+}
+
+.maro2 {
+    position: relative;
+}
+
+.maro2::before {
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    content: '';
+    background-color: black;
+    top: 17px;
+    left: 42%;
+}
+
+.maro2::after {
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    content: '';
+    background-color: black;
+    top: 17px;
+    right: 42%;
+}
+
+.icon6 {
+    font-size: 100px;
+    color: white;
+}
